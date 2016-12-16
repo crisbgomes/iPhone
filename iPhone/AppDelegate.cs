@@ -30,6 +30,7 @@ namespace iPhone
             // make the window visible
             Window.MakeKeyAndVisible();
 
+
             MobileCenter.Start("497d4c29-8604-43e0-950b-d545b08b39bf",
                     typeof(Analytics), typeof(Crashes));
 
